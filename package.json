@@ -1,0 +1,27 @@
+{
+  "name": "lamadevnext14dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/eslint-plugin-next": "14.0.1",
+    "bcrypt": "5.1.1",
+    "mongoose": "8.0.0",
+    "next": "14.0.1",
+    "next-auth": "5.0.0-beta.3",
+    "react": "18",
+    "react-dom": "18",
+    "react-icons": "4.11.0",
+    "recharts": "2.9.0",
+    "use-debounce": "9.0.4"
+  },
+  "devDependencies": {
+    "eslint": "8",
+    "eslint-config-next": "14.0.1"
+  }
+}
