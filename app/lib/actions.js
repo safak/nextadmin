@@ -158,8 +158,12 @@ export const authenticate = async (prevState, formData) => {
   const { username, password } = Object.fromEntries(formData);
 
   try {
-    await signIn("credentials", { username, password });
+    // Disable redirect
+    await signIn("credentials", { username, password, redirect: false });
   } catch (err) {
     return "Wrong Credentials!";
   }
+  
+  // Redirect to dashboard here
+  redirect("/dashboard");
 };
