@@ -1,10 +1,15 @@
+import { fetchUsers } from "@/app/lib/data"
 import Pagination from "@/app/ui/dashboard/pagination/pagination"
 import Search from "@/app/ui/dashboard/search/search"
 import styles from "@/app/ui/dashboard/users/users.module.css"
+import { PathParamsContext } from "next/dist/shared/lib/hooks-client-context.shared-runtime"
 import Image from "next/image"
 import Link from "next/link"
 
-const UsersPage = () => {
+const UsersPage = async ({searchParams}) => {
+  const q = searchParams?.q || "";
+  const users = await fetchUsers(q);
+
   return (
     <div className={styles.container}>
       <div className={styles.top}>
@@ -25,25 +30,33 @@ const UsersPage = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
+          {users.map(user => (
+            <tr key={user.id}>
             <td>
               <div className={styles.user}>
-                <Image src="/noavatar.png" alt="" width={40} height={40} className={styles.userImage}/> John Doe
+                <Image
+                  src={user.img || "noavatar.png"}
+                  alt=""
+                  width={40}
+                  height={40}
+                  className={styles.userImage}
+                /> {user.username}
               </div>
             </td>
-            <td>john@gmail.com</td>
-            <td>13.01.2022</td>
-            <td>Admin</td>
-            <td>Active</td>
+            <td>{user.email}</td>
+            <td>{user.createdAt?.toString().slice(4,16)}</td>
+            <td>{user.isAdmin ? "Admin" : "Client"}</td>
+            <td>{user.isActive ? "Active" : "Passive"}</td>
             <td>
               <div className={styles.buttons}>
-                <Link href="/dashboard/users/test">
+                <Link href={`/dashboard/users/${user.id}`}>
                     <button className={`${styles.button} ${styles.view}`}>View</button>
                 </Link>
                   <button className={`${styles.button} ${styles.delete}`}>Delete</button>
               </div>
             </td>
-          </tr>
+            </tr>
+          ))}
         </tbody>
       </table>
       <Pagination/>
