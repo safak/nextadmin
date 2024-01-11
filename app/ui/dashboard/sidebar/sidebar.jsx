@@ -104,6 +104,10 @@ function Sidebar() {
           </li>
         ))}
       </ul>
+      <button className={styles.logout}>
+        <MdLogout size={20} />
+        Logout
+      </button>
     </div>
   );
 }

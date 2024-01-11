@@ -35,3 +35,21 @@
   font-size: 13px;
   margin: 10px 0;
 }
+
+.logout {
+  padding: 20px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  color: #fff;
+}
+
+.logout:hover {
+  background-color: #2e374a;
+}
