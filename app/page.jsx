@@ -1,7 +1,11 @@
-const Homepage = () => {
+import Link from "next/link";
+import styles from "./homepage.module.css";
+export default function HomePage() {
   return (
-    <div>Homepage</div>
-  )
+    <div className={styles.container}>
+      <Link href="/dashboard">
+        <button className={styles.button}>Go To Your Dashboard</button>
+      </Link>
+    </div>
+  );
 }
-
-export default Homepage
