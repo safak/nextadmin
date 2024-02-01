@@ -1,0 +1,77 @@
+.container{
+  padding: 15px;
+  /* border-radius: 10px; */
+  background-color: var(--mainRed);
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  box-shadow: 0 0 8px 0 rgba(0,0,0,1);
+}
+
+.nav_icon{
+  object-fit: contain;
+}
+
+.title{
+  color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* background-color: #2e374a; */
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input{
+  /* background-color: transparent; */
+  background-color: white;
+  border: none;
+  columns: var(--text);
+  color: #2e374a;
+  outline: none;
+  
+}
+
+.icons{
+  display: flex;
+  gap: 20px;
+}
+
+.logo {
+    /* Tambahkan gaya sesuai kebutuhan, misalnya, agar logo mengisi penuh navbar */
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconContainer{
+  position: absolute relative;
+  /* bottom: 0;
+  /* left: 0; */
+  /* top: 0; */ 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+}
+
+.icon{
+  object-fit: contain;
+  opacity: 0.9;
+}

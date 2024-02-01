@@ -1,12 +1,12 @@
 import { Inter } from 'next/font/google'
-import './globals.css'
+import './ui/globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Lama Dev Next.js Admin Dashboard',
-  description: 'Next.js Tutorial',
-}
+  title: "OJK | Financial Conglomerate Company Monitoring Dashboard",
+  description: "Financial Conglomerate Company Monitoring Dashboard",
+};
 
 export default function RootLayout({ children }) {
   return (

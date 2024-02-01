@@ -1,0 +1,81 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    flex: 1;
+    background-color: var(--mainRed);
+    padding: 20px;
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.45) 25px 0px 20px -20px;
+    position: fixed;
+    /* overflow-y: auto; */
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    z-index: 1;
+}
+
+.menu:hover{
+    overflow-y: scroll;
+}
+
+.menu::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+}
+
+.menu::-webkit-scrollbar-track {
+  background: var(--mainRed);        /* color of the tracking area */
+}
+
+.menu::-webkit-scrollbar-thumb {
+  background-color: var(--redSoft);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  /* border: 3px solid orange;  creates padding around scroll thumb */
+}
+
+.content{
+    flex: 4;
+    padding: 15px;
+    margin-left: 250px;
+    z-index: 0;
+    /* position: relative;
+    flex-direction: column; */
+}
+
+.wrapper{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.main{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.side{
+    flex: 1;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.items{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}

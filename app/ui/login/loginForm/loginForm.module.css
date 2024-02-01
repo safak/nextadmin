@@ -1,0 +1,32 @@
+.form{
+  background-color: var(--mainRed);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  padding: 50px;
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.form input{
+  width: 100%;
+  padding: 30px;
+  border: 2px solid var(--redSoft);
+  border-radius: 5px;
+  background-color: var(--redSoft);
+  color: var(--text);
+}
+
+.form button{
+  padding: 30px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-color: var(--darkBg);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}

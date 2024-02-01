@@ -1,0 +1,26 @@
+:root{
+    --bg: white;
+    --bgSoft: #b7bac1;
+    --text: #151c2c;
+    --textSoft: #182237;
+    --mainRed: #9f1f21;
+    --redSoft: #af4345;
+    --darkBg: #151c2c;
+    --menuText: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bgSoft);
+    color: var(--menuText);
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}

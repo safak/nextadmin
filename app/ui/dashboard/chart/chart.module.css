@@ -1,0 +1,38 @@
+.container{
+  height: 450px;
+  width: 500px;
+  /* background-color: white;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  margin-bottom: 5px; */
+
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.header{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dropdown{
+  border-width: thin;
+  border-radius: 20px;
+  border-color: grey;
+  border: none;
+}
+
+.title{
+  font-weight: bold;
+  color: var(--text);
+  margin-bottom: 20px;
+}

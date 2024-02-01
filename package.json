@@ -9,10 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.6",
     "@next/eslint-plugin-next": "14.0.1",
+    "bcrypt": "^5.1.1",
+    "date-fns": "^3.2.0",
+    "mongoose": "^8.1.0",
     "next": "14.0.1",
+    "next-auth": "^5.0.0-beta.3",
     "react": "18",
-    "react-dom": "18"
+    "react-dom": "18",
+    "react-icons": "^5.0.1",
+    "recharts": "^2.10.4",
+    "use-debounce": "^10.0.0"
   },
   "devDependencies": {
     "eslint": "8",
