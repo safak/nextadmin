@@ -54,6 +54,12 @@ export const updateUser = async (formData) => {
       isActive,
     };
 
+    if (password) {
+      const saltRounds = 10;
+      const hashedPassword = await bcrypt.hash(password, saltRounds);
+      updateFields.password = hashedPassword;
+    }
+
     Object.keys(updateFields).forEach(
       (key) =>
         (updateFields[key] === "" || undefined) && delete updateFields[key]
