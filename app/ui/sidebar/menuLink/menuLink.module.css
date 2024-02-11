@@ -1,0 +1,15 @@
+.container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 8px 0;
+  border-radius: 12px;
+  transition: all ease-in-out 150ms;
+}
+
+.container:hover,
+.active {
+  background-color: #2e374a;
+  transition: all ease-in-out 150ms;
+}
