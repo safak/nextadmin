@@ -5,10 +5,10 @@ import Navbar from "../ui/dashboard/navbar";
 export default function Layout({ children }) {
   return (
     <div className={styles.container}>
-      <div>
+      <div className={styles.menu}>
         <Sidebar />
       </div>
-      <div>
+      <div className={styles.content}>
         <Navbar />
         {children}
       </div>
