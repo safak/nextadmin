@@ -9,6 +9,7 @@ export default function Lauout({ children }) {
         <Sidebar />
       </div>
       <div>
+        
         <Navbar />
         {children}
       </div>
