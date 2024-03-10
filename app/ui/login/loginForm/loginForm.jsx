@@ -15,6 +15,9 @@ const LoginForm = () => {
   return (
     <form action={formAction} className={styles.form}>
       <h1>Login</h1>
+      <p>To access dashboard, input the following:</p>
+      <p>Username: guest</p>
+      <p>Password: guest123</p>
       <input type="text" placeholder="Username" name="username" />
       <input type="password" placeholder="Password" name="password" />
       <button>Login</button>
