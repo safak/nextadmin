@@ -1,0 +1,30 @@
+.container{
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.container:hover{
+    background-color: #2e374a;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 400;
+}
+
+.button{
+    width: 100%;
+    padding: 20px;
+    background-color: teal;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
