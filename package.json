@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@next/eslint-plugin-next": "14.0.1",
-    "next": "14.0.1",
+    "next": "^14.2.5",
     "react": "18",
-    "react-dom": "18"
+    "react-dom": "18",
+    "react-icons": "^4.11.0",
+    "recharts": "^2.9.0"
   },
   "devDependencies": {
     "eslint": "8",
