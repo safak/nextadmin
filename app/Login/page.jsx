@@ -4,6 +4,7 @@ const LoginPage = () => {
     return (
         <div className={styles.container}>
             <form action="" className={styles.form}>
+                <h3>Login</h3>
                 <input type="text" placeholder="username" />
                 <input type="password" placeholder="password"/>
                 <button>Login</button>
@@ -12,4 +13,4 @@ const LoginPage = () => {
     )
 }
 
-export default LoginPage
+export default LoginPage;
