@@ -9,13 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mui/base": "^5.0.0-beta.40",
     "@next/eslint-plugin-next": "14.0.1",
-    "next": "14.0.1",
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "next": "^14.2.3",
+    "node-fetch": "^2.7.0",
+    "node-telegram-bot-api": "^0.66.0",
     "react": "18",
-    "react-dom": "18"
+    "react-dom": "18",
+    "react-icons": "^4.11.0",
+    "recharts": "^2.9.0",
+    "use-debounce": "^9.0.4"
   },
   "devDependencies": {
+    "@types/node": "20.14.2",
+    "@types/react": "18.3.3",
     "eslint": "8",
-    "eslint-config-next": "14.0.1"
+    "eslint-config-next": "14.0.1",
+    "typescript": "5.4.5"
   }
 }
