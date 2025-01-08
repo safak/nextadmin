@@ -19,13 +19,13 @@ const Transactions = () => {
             <td>
               <div className={styles.user}>
                 <Image
-                  src="/noavatar.png"
+                  src="/michael.jpg"
                   alt=""
                   width={40}
                   height={40}
                   className={styles.userImage}
                 />
-                <span>John Doe</span>
+                <span>Michael Darwin</span>
               </div>
             </td>
             <td>
@@ -33,39 +33,39 @@ const Transactions = () => {
                 Pending
               </span>
             </td>
-            <td>14.02.2024</td>
-            <td>$3,200</td>
+            <td>04.22.2025</td>
+            <td>$23,452</td>
           </tr>
           <tr>
             <td>
               <div className={styles.user}>
                 <Image
-                  src="/noavatar.png"
+                  src="/adenugya.jpeg"
                   alt=""
                   width={40}
                   height={40}
                   className={styles.userImage}
                 />
-                <span>John Doe</span>
+                <span>Adenugya Shafar</span>
               </div>
             </td>
             <td>
               <span className={`${styles.status} ${styles.done}`}>Done</span>
             </td>
-            <td>14.02.2024</td>
-            <td>$3,200</td>
+            <td>01.02.2025</td>
+            <td>$69,999</td>
           </tr>
           <tr>
             <td>
               <div className={styles.user}>
                 <Image
-                  src="/noavatar.png"
+                  src="/jane.jpg"
                   alt=""
                   width={40}
                   height={40}
                   className={styles.userImage}
                 />
-                <span>John Doe</span>
+                <span>Jane Foster</span>
               </div>
             </td>
             <td>
@@ -73,20 +73,20 @@ const Transactions = () => {
                 Cancelled
               </span>
             </td>
-            <td>14.02.2024</td>
-            <td>$3,200</td>
+            <td>07.17.2025</td>
+            <td>$2,032</td>
           </tr>
           <tr>
             <td>
               <div className={styles.user}>
                 <Image
-                  src="/noavatar.png"
+                  src="/peter.jpeg"
                   alt=""
                   width={40}
                   height={40}
                   className={styles.userImage}
                 />
-                <span>John Doe</span>
+                <span>Peter Parker</span>
               </div>
             </td>
             <td>
@@ -94,8 +94,8 @@ const Transactions = () => {
                 Pending
               </span>
             </td>
-            <td>14.02.2024</td>
-            <td>$3,200</td>
+            <td>12.21.2025</td>
+            <td>$1,124</td>
           </tr>
         </tbody>
       </table>
