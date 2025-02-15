@@ -10,9 +10,14 @@
   },
   "dependencies": {
     "@next/eslint-plugin-next": "14.0.1",
-    "next": "14.0.1",
+    "bcrypt": "^5.1.1",
+    "mongoose": "^8.8.4",
+    "next": "^14.2.18",
     "react": "18",
-    "react-dom": "18"
+    "react-dom": "18",
+    "react-icons": "^4.11.0",
+    "recharts": "^2.9.0",
+    "use-debounce": "^9.0.4"
   },
   "devDependencies": {
     "eslint": "8",
