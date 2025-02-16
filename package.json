@@ -21,6 +21,7 @@
     "use-debounce": "^9.0.4"
   },
   "devDependencies": {
+    "@types/react": "19.0.8",
     "eslint": "8",
     "eslint-config-next": "14.0.1"
   }
