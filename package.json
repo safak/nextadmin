@@ -6,16 +6,31 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "mocha"
   },
   "dependencies": {
     "@next/eslint-plugin-next": "14.0.1",
+    "@vis.gl/react-google-maps": "^0.9.0",
+    "bcrypt": "^5.1.1",
+    "d3-dsv": "^3.0.1",
+    "leaflet": "^1.9.4",
+    "mongoose": "^8.3.2",
     "next": "14.0.1",
+    "next-auth": "^5.0.0-beta.3",
     "react": "18",
-    "react-dom": "18"
+    "react-dom": "18",
+    "react-icons": "^4.11.0",
+    "react-leaflet": "^4.2.1",
+    "recharts": "^2.9.0",
+    "use-debounce": "^9.0.4"
   },
   "devDependencies": {
+    "@types/react": "18.3.0",
     "eslint": "8",
-    "eslint-config-next": "14.0.1"
+    "eslint-config-next": "14.0.1",
+    "jest": "^29.7.0",
+    "mocha": "^10.4.0",
+    "vitest": "^1.6.0"
   }
 }
