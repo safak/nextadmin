@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import styles from '@/app/ui/dashboard/users/singleUser/singleUser.module.css';
 import { useState, useEffect } from 'react';
 
@@ -70,24 +70,6 @@ const SingleUserPage = ({ userId }) => {
                         onChange={(e) => setUserData({ ...userData, password: e.target.value })} 
                     />
 
-                    <label>Phone</label>
-                    <input 
-                        type="text" 
-                        name="phone" 
-                        placeholder="Phone Number" 
-                        value={userData.phone || ''} 
-                        onChange={(e) => setUserData({ ...userData, phone: e.target.value })} 
-                    />
-
-                    <label>Address</label>
-                    <input 
-                        type="text" 
-                        name="address" 
-                        placeholder="Address" 
-                        value={userData.address || ''} 
-                        onChange={(e) => setUserData({ ...userData, address: e.target.value })} 
-                    />
-
                     <label>Is Admin</label>
                     <select 
                         name="isAdmin" 
@@ -107,6 +89,7 @@ const SingleUserPage = ({ userId }) => {
                         <option value="true">Yes</option>
                         <option value="false">No</option>
                     </select>
+                    
                     <button type="submit">Update</button>
                 </form>
             </div>
