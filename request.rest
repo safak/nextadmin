@@ -1,0 +1,34 @@
+POST http://localhost:3000/api/post
+Content-Type: application/json
+
+{
+  "username": "diwangeming",
+  "email": "4m7@example.com",
+  "password": "123456",
+  "role": 1,
+  "status": 1
+}
+
+#####
+
+GET  http://localhost:3000/api/get
+
+####
+
+POST http://localhost:3000/api/postMeasurement
+Content-Type: 'application/json'
+
+{
+  "waterLevel": 1,
+  "windSpeed": 1.1,
+  "airTemp": 1.1,
+  "airHumidity": 1.1,
+  "airPressure": 1.1,
+  "waterTemp": 1.1,
+  "curahHujan": 1.1
+}
+
+
+####
+
+GET  http://localhost:3000/api/getMeasurement

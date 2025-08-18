@@ -10,12 +10,25 @@
   },
   "dependencies": {
     "@next/eslint-plugin-next": "14.0.1",
-    "next": "14.0.1",
-    "react": "18",
-    "react-dom": "18"
+    "@prisma/client": "^5.21.1",
+    "axios": "^1.7.7",
+    "date-fns": "^4.1.0",
+    "dd": "^0.26.0",
+    "dotenv": "^16.4.5",
+    "leaflet": "^1.9.4",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.7.3",
+    "mysql2": "^3.11.3",
+    "next": "^14.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^4.11.0",
+    "react-leaflet": "^4.2.1",
+    "recharts": "^2.13.0"
   },
   "devDependencies": {
     "eslint": "8",
-    "eslint-config-next": "14.0.1"
+    "eslint-config-next": "14.0.1",
+    "prisma": "^5.21.1"
   }
 }

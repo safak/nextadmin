@@ -1,0 +1,36 @@
+.container {
+    height: 450px;
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-weight: 200;
+    color: var(--textSoft);
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.main {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column; /* Display charts in a single column on smaller screens */
+    }
+    
+    .container {
+        height: 350px; /* Adjust chart container height for smaller screens */
+    }
+}

@@ -1,0 +1,49 @@
+.container{
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addButton{
+    padding: 10px;
+    background-color: #4e31aa;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table{
+    width: 100%;
+}
+
+.table td{
+    padding: 10px;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--text);
+    border: none;
+    cursor: pointer;
+}
+
+.view{
+    background-color: teal;
+}
+
+.delete{
+    background-color: #ff0000;
+}
